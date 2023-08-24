@@ -9,7 +9,7 @@ export function Navbar() {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">nextjs-starter</a>
+        <a className="btn btn-ghost normal-case text-xl">Muhammad Nur Ichsan </a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">
@@ -27,6 +27,13 @@ export function Navbar() {
               className={currentRoute === '/about' ? 'active' : undefined}
             >
               About
+            </Link>
+
+            <Link
+              href="/puasa-sunnah"
+              className={currentRoute === '/puasa-sunnah' ? 'active' : undefined}
+            >
+              Puasa Sunnah
             </Link>
           </li>
         </ul>
